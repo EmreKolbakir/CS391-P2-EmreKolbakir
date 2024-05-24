@@ -15,7 +15,12 @@
       "id": "9c62"
     }
   ],
-  "academical": [],
+  "academical": [
+    {
+      "completed": true,
+      "id": "f4cf"
+    }
+  ],
   "daily": [],
   "work": []
 }
