@@ -1,40 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PlanWise Web Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+PlanWise is a web application designed to help users efficiently organize and manage their tasks and schedules. The application includes features such as to-do lists, a weekly planner, quick access to useful links, and email functionality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **To-Do Lists**: Manage your tasks with categorized to-do lists (Academical, Daily, Work).
+- **Weekly Planner**: Plan your week with a detailed weekly schedule, add and remove events easily.
+- **Quick Access Links**: Access frequently used websites quickly.
+- **Email Functionality**: Send emails directly from the application.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. **Clone the Repository**:
+    ```sh
+    git clone https://github.com/yourusername/planwise.git
+    cd planwise
+    ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. **Install Dependencies**:
+    ```sh
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Run the Application**:
+    ```sh
+    npm run dev
+    ```
 
-## Learn More
+4. **Open in Browser**:
+    Open your browser and go to `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Pages and Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Home Page
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The home page is the central hub of PlanWise. It provides navigation to all major features.
 
-## Deploy on Vercel
+![Home Page](path_to_home_page_screenshot.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Welcome Message**: Personalized welcome message based on the user's name.
+- **Navigation**: Links to To-Do Lists, Weekly Program, Quick Access, and Email.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### To-Do Lists
+
+Manage your tasks with categorized to-do lists.
+
+![To-Do Lists](path_to_todo_lists_screenshot.png)
+
+- **Add Tasks**: Type in the task and press 'Enter' to add.
+- **Mark as Complete**: Click on a task to mark it as complete.
+- **Clear Completed Tasks**: Click the "Clear Completed" button to remove all completed tasks.
+
+### Weekly Planner
+
+Organize your week with the weekly planner.
+
+![Weekly Planner](path_to_weekly_planner_screenshot.png)
+
+- **Add Events**: Click on a time slot, enter the event details, and press 'Enter'.
+- **Remove Events**: Double-click an existing event to remove it.
+
+### Quick Access Links
+
+Access frequently used websites quickly.
+
+![Quick Access Links](path_to_quick_access_links_screenshot.png)
+
+- **Links**: Buttons to navigate to websites like GitHub, StackOverflow, LinkedIn, YouTube, Discord, and ChatGPT.
+
+### Email Functionality
+
+Send emails directly from the application.
+
+![Email Functionality](path_to_email_functionality_screenshot.png)
+
+- **Send Email**: Enter the recipient email and message, then click 'Send'.
+
+## How to Use
+
+1. **Home Page**:
+    - Enter your username and start using PlanWise.
+    
+2. **To-Do Lists**:
+    - Add, mark, and clear tasks in different categories.
+
+3. **Weekly Planner**:
+    - Schedule your week by adding and removing events.
+
+4. **Quick Access Links**:
+    - Quickly navigate to commonly used websites.
+
+5. **Email Functionality**:
+    - Send emails without leaving the application.
+
+## Technical Details
+
+- **Built with**: ReactJS, NextJS
+- **Styling**: Custom CSS, Responsive Design
+- **Data Management**: FetchAPI, RESTful Services
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
