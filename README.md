@@ -60,7 +60,7 @@ PlanWise is a web application designed to help users efficiently organize and ma
 
 The index page allows users to sign up or provide their information.
 
-![Index Page](ScreenShots\1.png)
+![Index Page](ScreenShots/1.png)
 
 - **Sign Up Form**: Users can enter their username, surname, email, department, address, and birth date.
 - **Dropdown Menu**: Choose department from a dropdown menu.
