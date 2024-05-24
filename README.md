@@ -25,11 +25,18 @@ PlanWise is a web application designed to help users efficiently organize and ma
     ```
 
 3. **Run the Application**:
+    In one terminal, run the development server:
     ```sh
     npm run dev
     ```
 
-4. **Open in Browser**:
+4. **Run the JSON Server**:
+    In a separate terminal, run the JSON server:
+    ```sh
+    json-server --watch db.json --port 5000
+    ```
+
+5. **Open in Browser**:
     Open your browser and go to `http://localhost:3000`.
 
 ## Pages and Features
