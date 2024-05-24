@@ -123,6 +123,13 @@ If you encounter an error, please refresh the page. Here is an example of the er
 
 ![Error Screenshot](ScreenShots/planwise-ss.png)
 
+## Page FLow Diagram
+![alt text](ScreenShots/Flowcharts.png)
+
+## Project Members and Responsibilities
+
+- **Emre Kolbakir**: Responsible for the entire project, including front-end design, back-end functionality, and documentation.
+
 
 ## License
 
