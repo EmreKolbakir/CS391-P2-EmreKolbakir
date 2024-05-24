@@ -1,0 +1,135 @@
+/* Index.module.css */
+.indexContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.indexHeader {
+  text-align: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  text-shadow: 4px 4px 4px rgb(93, 5, 255);
+}
+
+.indexHeader h1 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.indexHeader p {
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.indexMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.formBox {
+  background-color: rgba(0, 0, 20, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 600px;
+}
+
+.form {
+  width: 100%;
+}
+
+.form input, .form button, .form label {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(21, 21, 64, 0.5);
+  border: none;
+  border-radius: 5px;
+  color: #C0C0C0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select select {
+  display: none; /* Hide the original select element */
+}
+
+.select-selected {
+  background-color: rgba(21, 21, 64, 0.5);
+  color: #C0C0C0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+}
+
+.select-selected:after {
+  content: "\25BC";
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  color: #C0C0C0;
+}
+
+.select-items {
+  position: absolute;
+  background-color: rgba(21, 21, 64, 0.5);
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.select-items div {
+  color: #C0C0C0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.select-items div:hover {
+  background-color: rgba(49, 49, 127, 0.85);
+}
+
+.select-hide {
+  display: none;
+}
+
+.form button {
+  background-color: rgba(21, 21, 64, 0.7);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form button:hover {
+  background-color: rgba(49, 49, 127, 0.85);
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .formBox {
+      width: 90%;
+      margin: 10px 0;
+  }
+}

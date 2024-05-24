@@ -1,0 +1,134 @@
+/* Program.module.css */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeButton {
+    background-color: rgba(49, 49, 127, 0.85);
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.homeButton:hover {
+    background-color: rgba(49, 49, 127, 1);
+    color: #FFFFFF;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.weeklySchedule {
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr);
+    gap: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 20, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 6px rgba(29, 2, 80, 0.692);
+}
+
+.weeklyScheduleHeader {
+    display: contents;
+}
+
+.weeklyScheduleBody {
+    display: contents;
+}
+
+.dayHeader, .hourHeader {
+    background-color: rgba(0, 0, 39, 0.582);
+    border: 1px solid rgba(60, 17, 146, 0.897);
+    box-shadow: 0 0 10px 6px rgba(29, 2, 80, 0.692);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.hourHeader {
+    text-align: right;
+}
+
+.timeSlot {
+    background-color: rgba(0, 0, 39, 0.582);
+    border: 1px solid rgba(60, 17, 146, 0.897);
+    box-shadow: 0 0 10px 6px rgba(29, 2, 80, 0.692);
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.eventInput {
+    width: 100%;
+    background-color: rgba(21, 21, 64, 0.5);
+    border: none;
+    border-radius: 5px;
+    color: #C0C0C0;
+    font-family: 'Orbitron', sans-serif;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.eventInput::placeholder {
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .weeklySchedule {
+        grid-template-columns: 50px repeat(4, 1fr);
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .dayHeader, .hourHeader, .timeSlot {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .eventInput {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .weeklySchedule {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .weeklyScheduleHeader {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .dayHeader {
+        display: none;
+    }
+
+    .hourHeader {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .timeSlot {
+        grid-column: 1 / -1;
+    }
+
+    .eventInput {
+        font-size: 0.7rem;
+    }
+}
