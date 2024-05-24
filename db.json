@@ -1,26 +1,8 @@
 {
   "users": [],
   "todos": [],
-  "events": [
-    {
-      "day": "Saturday",
-      "hour": "11",
-      "title": "",
-      "id": "b6d7"
-    },
-    {
-      "day": "Saturday",
-      "hour": "13",
-      "title": "",
-      "id": "9c62"
-    }
-  ],
-  "academical": [
-    {
-      "completed": true,
-      "id": "f4cf"
-    }
-  ],
+  "events": [],
+  "academical": [],
   "daily": [],
   "work": []
 }
