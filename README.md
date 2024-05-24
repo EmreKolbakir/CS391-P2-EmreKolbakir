@@ -1,22 +1,37 @@
-# PlanWise Web Application
+# 📅 PlanWise Web Application
 
 ## Overview
 
 PlanWise is a web application designed to help users efficiently organize and manage their tasks and schedules. The application includes features such as to-do lists, a weekly planner, quick access to useful links, and email functionality.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Home Page](#home-page)
+  - [To-Do Lists](#to-do-lists)
+  - [Weekly Planner](#weekly-planner)
+  - [Quick Access Links](#quick-access-links)
+  - [Email Functionality](#email-functionality)
+- [Technical Details](#technical-details)
+- [Warning](#warning)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
-- **To-Do Lists**: Manage your tasks with categorized to-do lists (Academical, Daily, Work).
-- **Weekly Planner**: Plan your week with a detailed weekly schedule, add and remove events easily.
-- **Quick Access Links**: Access frequently used websites quickly.
-- **Email Functionality**: Send emails directly from the application.
+- 📝 **To-Do Lists**: Manage your tasks with categorized to-do lists (Academical, Daily, Work).
+- 📅 **Weekly Planner**: Plan your week with a detailed weekly schedule, add and remove events easily.
+- 🔗 **Quick Access Links**: Access frequently used websites quickly.
+- 📧 **Email Functionality**: Send emails directly from the application.
 
 ## Installation
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/planwise.git
-    cd planwise
+    git clone https://github.com/EmreKolbakir/CS391-P2-EmreKolbakir.git
+    cd CS391-P2-EmreKolbakir
     ```
 
 2. **Install Dependencies**:
@@ -39,7 +54,7 @@ PlanWise is a web application designed to help users efficiently organize and ma
 5. **Open in Browser**:
     Open your browser and go to `http://localhost:3000`.
 
-## Pages and Features
+## Usage
 
 ### Home Page
 
@@ -85,28 +100,17 @@ Send emails directly from the application.
 
 - **Send Email**: Enter the recipient email and message, then click 'Send'.
 
-## How to Use
-
-1. **Home Page**:
-    - Enter your username and start using PlanWise.
-    
-2. **To-Do Lists**:
-    - Add, mark, and clear tasks in different categories.
-
-3. **Weekly Planner**:
-    - Schedule your week by adding and removing events.
-
-4. **Quick Access Links**:
-    - Quickly navigate to commonly used websites.
-
-5. **Email Functionality**:
-    - Send emails without leaving the application.
-
 ## Technical Details
 
 - **Built with**: ReactJS, NextJS
 - **Styling**: Custom CSS, Responsive Design
 - **Data Management**: FetchAPI, RESTful Services
+
+## Warning
+
+If you encounter an error, please refresh the page. Here is an example of the error you might see:
+
+![Error Screenshot](path_to_error_screenshot.png)
 
 ## Contributing
 
